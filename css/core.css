@@ -12,3 +12,22 @@
 .heading h1 {
     font-size: 10px;
 }
+
+.possible-button img {
+    width: 190px;
+    height: 50px;
+}
+
+.possible-button {
+    margin: 0px 380px 0px 380px;
+}
+
+.hero-image {
+    background-image: url(/images/heroimageHackReactor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+}
+
+.hero-image h1 {
+    color: white;
+}
