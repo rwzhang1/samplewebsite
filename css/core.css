@@ -31,3 +31,7 @@
 .hero-image h1 {
     color: white;
 }
+
+.possible-button button {
+    background-color: lightblue;
+}
