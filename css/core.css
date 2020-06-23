@@ -38,71 +38,98 @@
     padding-bottom: 200px;
 }
 .possible-button button {
-    background-color: lightblue;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
+    background-color: rgb(0, 165, 255);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
-  }
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  overflow: hidden;
+  background-color: #333;
+}
 
-.dropdown .dropbutton {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: blue;
 }
 
 .dropdown-content {
-    display: none;
-    position: fixed;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1000;
-  }
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 25px;
+}
 
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .arrow {
-    border: solid black;
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  .arrow-down {
+    border: solid  rgb(0, 165, 255);
     border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 3px;
+    padding: 2px;
   }
   .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
+
+.awards {
+  color:black;
+  background-color: lightgrey;
+}
+
+.awards img {
+  width: 200px;
+  height: 50px;
+}
+
+.prep a {
+  font-size: 14px;
+}
+
+
+
