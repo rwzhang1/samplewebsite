@@ -1,79 +1,84 @@
 .row-one {
-    background-color: grey;
+  background-color: grey;
 }
 
 .row-one-left, .row-one-right {
-    color: purple;
-    font-size: 20px;
-    border: 5px solid yellow;
-    padding: 5px; 
+  color: purple;
+  font-size: 1.125rem;
+  border: 5px solid yellow;
+  padding: 5px; 
 }
 
 .heading h1 {
-    font-size: 10px;
+  font-size: 1.125rem;
 }
 
 .possible-button img {
-    width: 190px;
-    height: 50px;
+  width: 180px;
+  height: 45px;
 }
 
 .possible-button {
-    margin: 0px 450px 0px 450px;
+  margin: 0px 400px;
 }
 
 .hero-image {
-    background-image: url(/images/heroimageHackReactor.jpg);
-    background-repeat: no-repeat;
-    background-size: cover, contain;
+  background-image: url(/images/heroimageHackReactor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover, contain;
 }
 
 .hero-image h1 {
-    color: white;
-    padding-top: 200px;
+  color: white;
+  padding-top: 200px;
+  box-sizing: inherit;
 }
 
 .hero-image h2 {
-    color: white;
-    padding-bottom: 100px;
-    margin-bottom: 0px;
+  color: white;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
 }
 .possible-button button {
-    background-color: rgb(0, 165, 255);
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    color: white;
-    border: none;
+  background-color:  rgb(0, 130, 200);
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  color: white;
+  border: none;
 }
 
 .navbar {
   overflow: hidden;
   background-color: #333;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 1.125rem;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 0px;
   text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 1.125rem;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .dropdown .dropbtn {
   border: none;
   outline: none;
   color: black;
-  padding: 14px 16px;
+  padding: 14px 20px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -87,7 +92,8 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  padding: 25px;
+  padding: 25px 0px 25px 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .dropdown-content a {
@@ -97,6 +103,7 @@
   text-decoration: none;
   display: block;
   text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .dropdown-content a:hover {
@@ -114,7 +121,8 @@
 
 
 .prep a {
-  font-size: 14px;
+  font-size: 1.125rem;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .awards{
@@ -124,6 +132,7 @@
 .awards p {
   width: 25%;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 .awards img {
   width: 25%;
@@ -132,10 +141,38 @@
 
 .hero-image button {
   margin-top: 30px;
-  background-color: rgb(0, 165, 255);
+  background-color:  rgb(0, 130, 200);
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.learnbanner {
+  background: linear-gradient(10deg, rgb(114, 114, 114) 45%, grey 46%);
+  background-color: grey;
+  padding: 25px 0px;
+  color: white;
+  font-size: 1.125rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top: .5rem solid;
+  border-color:   rgb(0, 130, 200);
+}
+
+.learnbanner form button {
+  background-color: rgb(0, 130, 200);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.125rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fchoice {
+  font-size: 1.125rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 50px 0px 0px;
 }
