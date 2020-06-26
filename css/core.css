@@ -174,5 +174,15 @@
 .fchoice {
   font-size: 1.125rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 50px 0px 0px;
+  padding: 50px 0px;
+}
+
+.fchoice img {
+  width: 20%;
+}
+
+.contents .container {
+  width: 38%;
+  margin-left: auto;
+  margin-right: 0px;
 }
