@@ -195,19 +195,19 @@
 }
 
 .bootcamp .onsite {
-  width: 304px;
+  width: 363px;
   margin-right: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .bootcamp .remote {
-  width: 304px;
+  width: 363px;
   margin-right: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .bootcamp .offline {
-  width: 304px;
+  width: 363px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -225,18 +225,62 @@
 
 .bootcamp .container .container button {
   color:   rgb(0, 130, 200);
-  border-color:   rgb(0, 130, 200);;
+  border-color:   rgb(0, 130, 200);
   border-radius: 5px;
   text-align: center;
   padding: 5px 50px;
   border-style: solid;
   border-width: 0.5px;
+  background-color: white;
 }
 
 .bootcamp .onsite form {
-  padding-top: 50px;
+  padding-top: 48px;
+}
+
+.bootcamp .remote form {
+  padding-top: 48px;
 }
 
 .bootcamp form {
   padding-top: 20px;
+}
+
+.syllabus .container {
+  border-style: outset;
+  margin-top: 64px;
+}
+
+.syllabus .imgContainer {
+  width: 15%;
+}
+
+.syllabus img {
+  width: 100%;
+}
+
+.syllabus .row .container {
+  width: 85%;
+  margin-top: 0px;
+  border-style: none;
+  padding: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.syllabus h3 {
+  width: 80%;
+}
+
+.syllabus p {
+  width: 80%;
+}
+
+.syllabus .syllabusbutton button {
+  color: rgb(0, 130, 200);
+  border-color: rgb(0, 130, 200);
+  background-color: white;
+  border-radius: 5px;
+  border-width: 0.5px;
+  padding: 5px 25px;
+  border-style: solid;
 }
