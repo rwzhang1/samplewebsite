@@ -500,10 +500,11 @@
   width: 50%;
   padding-bottom: 25px;
   border-bottom: solid;
-  border-color: pink;
+  border-color: rgb(0, 166, 255);
   padding-top: 25px;
   display: flex;
   align-items: center;
+  border-width: 0.5px;
 }
 .footer .imgContainer img {
   width: 30%;
@@ -514,8 +515,9 @@
   width: 50%;
   padding-bottom: 25px;
   border-bottom: solid;
-  border-color: pink;
+  border-color: rgb(0, 166, 255);
   padding-top: 25px;
+  border-width: 0.5px;
 }
 
 .footer .row .container input {
@@ -538,4 +540,72 @@
 
 .footer p {
   color: white;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer .getstarted {
+  width: 25%;
+}
+
+.footer .company {
+  width: 25%;
+}
+
+.footer .more {
+  width: 25%;
+}
+
+.footer .reviews {
+  width: 25%;
+}
+
+.footer .reviews a {
+  padding-right: 15px;
+  color: white;
+}
+
+.footer .socials a {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  margin: 0px 10px;
+  border-width: 0.2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+}
+
+.footer {
+  color: white;
+}
+
+.footer .socialm {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer .copyright a {
+  float: right;
+}
+
+.footer .copyright {
+  background-color: rgb(0, 113, 173);
+  border-bottom: none;
+  border-width: 1.5px;
+  border-top: solid;
+  border-top-color: rgb(0, 166, 255);
+  border-top-width: 0.5px;
+}
+
+.footer .copyright .container {
+  border-bottom: none;
+  margin: auto;
+}
+
+.footer .copyright p {
+  margin: auto;
 }
