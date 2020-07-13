@@ -120,7 +120,7 @@
 .contents .container {
   width: 38%;
   margin-left: auto;
-  margin-right: 0px;
+  margin-right: 100px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -132,13 +132,11 @@
 
 .bootcamp .onsite {
   width: 363px;
-  margin-right: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .bootcamp .remote {
   width: 363px;
-  margin-right: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -171,15 +169,14 @@
 }
 
 .bootcamp .onsite form {
-  padding-top: 48px;
+  padding-top: 72px;
 }
-
-.bootcamp .remote form {
-  padding-top: 48px;
-}
-
 .bootcamp form {
   padding-top: 20px;
+}
+
+.bootcamp .offline form {
+  padding-top: 44px;
 }
 
 .syllabus .container {
@@ -343,13 +340,11 @@
 
 .news .quartz {
   width: 363px;
-  margin-right: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .news .forbes {
   width: 363px;
-  margin-right: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -383,28 +378,29 @@
 
 .news .forbes form {
   padding-top: 44px;
+  padding-bottom: 24px;
 }
 
 .news form {
   padding-top: 20px;
-  padding-bottom: 10px;
 }
 
 .news .techco form {
   padding-top: 68px;
+  padding-bottom: 24px;
 }
 
-.news .quartz {
+.news .quartz .imageContainer {
   border-style: outset;
   border-width: 1px;
 }
 
-.news .forbes {
+.news .forbes .imageContainer {
   border-style: outset;
   border-width: 1px;
 }
 
-.news .techco {
+.news .techco .imageContainer {
   border-style: outset;
   border-width: 1px;
 }
@@ -619,6 +615,7 @@
   position: relative;
   display: inline-block;
   margin: auto;
+  padding-left: 30px;
 }
 
 .dropmenu .row .prep a {
