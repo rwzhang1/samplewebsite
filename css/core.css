@@ -227,7 +227,7 @@
 .experiences p {
   width: 80%;
   margin: auto;
-  padding: 30px;
+  padding: 31.5px;
 }
 
 .experiences .column {
@@ -246,7 +246,7 @@
 
 .experiences .prize {
   width: 33%;
-  padding: 15px;
+  padding-top: 15px;
   border-style: outset;
   margin-left: auto;
   height: 562px;
@@ -258,7 +258,7 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  padding: 5px 0px;
+  padding: 5px 0px 0px 0px;
 }
 
 .experiences .prize p {
@@ -629,13 +629,15 @@
 }
 
 .navbar form {
-  padding: 16px;
   font-size: 16px;
   border: none;
   position: relative;
   display: inline-block;
   margin-bottom: 0px;
-  margin: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: none;
 }
 
 .navbar form button {
