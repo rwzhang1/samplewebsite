@@ -23,7 +23,7 @@
 }
 
 .hero-image {
-  background-image: url(/images/heroimageHackReactor.jpg);
+  background-image: url(images/heroimageHackReactor.jpg);
   background-repeat: no-repeat;
   background-size: cover, contain;
 }
